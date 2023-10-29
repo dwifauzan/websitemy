@@ -23,7 +23,7 @@
             $result = mysqli_query($conn, $sql);
 
             if(mysqli_num_rows($result)){
-                echo"say hallo";
+                include 'index.html';
             }
         }
     }else{
