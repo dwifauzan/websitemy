@@ -23,7 +23,8 @@
             $result = mysqli_query($conn, $sql);
 
             if(mysqli_num_rows($result)){
-                include 'index.html';
+                header("location: ./home/home.html");
+                exit();
             }
         }
     }else{
